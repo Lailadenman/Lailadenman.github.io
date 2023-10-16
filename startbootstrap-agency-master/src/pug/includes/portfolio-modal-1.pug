@@ -1,0 +1,27 @@
+// Portfolio item 1 modal popup
+#portfolioModal1.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+    .modal-dialog
+        .modal-content
+            .close-modal(data-bs-dismiss='modal')
+                img(src='assets/img/close-icon.svg', alt='Close modal')
+            .container
+                .row.justify-content-center
+                    .col-lg-8
+                        .modal-body
+                            // Project details
+                            h2.text-uppercase CoverMe
+                            p.item-intro.text-muted An app made for employees to be able to cover and request coverage for a shift and easily communicate with other coworkers.
+                            img.img-fluid.d-block.mx-auto.img-fit(src='assets/img/portfolio/CoverMe Main Page.png', alt='...')
+
+                            p This application features an algorithm I developed to arrange each day in each month correctly using conditionals without any pre-existing packages or components to display an accurate calendar for the user to create and view calendar events in which they can request coverage or accept a shift. It also has group and individual messaging between users within a group using integrated websockets and auth routes to allow users to send messages in real time while restricting access to messages outside of their group to ensure privacy of messages to those in each group. I created a custom API so that users can search for and request to join groups as well as use the basic CRUD abilities on each group. The group owners have the ability to accept or deny requests usig the API as well.
+                            ul.list-inline
+                                li
+                                    strong Skills:
+                                    | Python, Flask, Websockets, React, Redux, Javascript, SqlAlchemy
+                                li
+                                    a.strong(href="https://coverme.onrender.com/", target="_blank") Live Site
+                                li
+                                    a.strong(href="https://github.com/Lailadenman/Cover-Me", target="_blank") GitHub
+                            button.btn.btn-primary.btn-xl.text-uppercase(data-bs-dismiss='modal', type='button')
+                                i.fas.fa-xmark.me-1
+                                | Close Project
