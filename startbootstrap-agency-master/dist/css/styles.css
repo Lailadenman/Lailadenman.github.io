@@ -11319,6 +11319,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  font-style: normal;
 }
 
 .logo-container {
@@ -11327,4 +11329,12 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .logo-svg {
   src: "assets/img/Laila_Denman-removebg-preview.png";
+}
+
+.no-shrink {
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
