@@ -48,6 +48,50 @@
     // top: 50px;
 }
 
+.dandelionPic {
+    clip-path: circle(43%);
+    position: relative;
+    top: -26px;
+}
+
+.magentaPic {
+    clip-path: circle(43%);
+    position: relative;
+    top: -26px;
+}
+
+.redFlowerPic {
+    clip-path: circle(43%);
+    position: relative;
+    top: -26px;
+}
+
+.greenery {
+    background-image: url("../assets/img/Greenery\ Outside.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hColor {
+    color: white;
+    background-color: rgba(0, 0, 0, 50%);
+    width: 550px;
+}
+
+.hColorT {
+    color: white;
+    background-color: rgba(0, 0, 0, 50%);
+    width: 300px;
+}
+
+.centerHeader {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 // Delete this once there is a third project
 
 .items-center {

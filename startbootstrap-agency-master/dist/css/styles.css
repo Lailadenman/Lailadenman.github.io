@@ -10947,7 +10947,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/Magenta Headshot.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11257,9 +11257,10 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("../assets/img/Landscape Greenery.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 section#contact .section-heading {
   color: #fff;
@@ -11337,6 +11338,53 @@ section#contact form#contactForm :-ms-input-placeholder {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+
+.dandelionPic {
+  -webkit-clip-path: circle(43%);
+          clip-path: circle(43%);
+  position: relative;
+  top: -26px;
+}
+
+.magentaPic {
+  -webkit-clip-path: circle(43%);
+          clip-path: circle(43%);
+  position: relative;
+  top: -26px;
+}
+
+.redFlowerPic {
+  -webkit-clip-path: circle(43%);
+          clip-path: circle(43%);
+  position: relative;
+  top: -26px;
+}
+
+.greenery {
+  background-image: url("../assets/img/Greenery Outside.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hColor {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 550px;
+}
+
+.hColorT {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 300px;
+}
+
+.centerHeader {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .items-center {
